@@ -5,8 +5,8 @@ class Portfolio extends Component {
 
     render(){
         return (
-            <section>
-
+            <section className={'content-box'} id='portfolio-section'>
+                <h2>Portfolio</h2>
             </section>
         )
     }

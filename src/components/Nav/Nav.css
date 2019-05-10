@@ -3,13 +3,19 @@
     height: 60px;
     /* background-color:; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-content: center;
+    position: fixed;
 
 }
 
 .button-box {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-content: center;
 }
+
+#root{
+    display: flex;
+    flex-direction: column
+    }
