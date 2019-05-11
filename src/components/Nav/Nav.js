@@ -17,6 +17,10 @@ class Nav extends Component {
                 <Link
                     to = "about-section"
                     activeClass = "active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500} 
                 >
                     <Button>About</Button>
                 </Link>

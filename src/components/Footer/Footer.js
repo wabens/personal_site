@@ -5,7 +5,7 @@ class Footer extends Component {
 
     render(){
         return (
-            <section id='contact-section'>
+            <section className = 'content-box' id='contact-section'>
                 <h2>Contact</h2>
             </section>
         )
