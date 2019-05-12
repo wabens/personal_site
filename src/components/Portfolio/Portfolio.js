@@ -10,7 +10,7 @@ class Portfolio extends Component {
         return (
             <section className={'content-box'} id='portfolio-section'>
                 <h2>Projects</h2>
-                <div className='project-box'>
+                <div>
                     {
                         projectList.map( (project, i) => 
                             <ProjectItem project={project} key={i}/>

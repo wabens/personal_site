@@ -5,16 +5,17 @@ function ProjectItem (props) {
     console.log(`props`, props);
     
     return(
-        <div>
-            <h3>{project.name}</h3>
+        <div className={'project-box'}>
+            <h4>{project.name}</h4>
             <div className = {'project-images'}>
                 {project.images.map( (src, i) =>
-                    // console.log(`image src `, src)
-                <div className={'img-div'}>
-                    <img key={i} src={src} alt={project.name+' screenshot'} height={'100%'} width={'auto'} />
-                </div>
+                    <div className={'img-div'}>
+                        <img key={i} src={src} alt={project.name+' screenshot'} height={'100%'} width={'auto'} />
+                    </div>
                 )}
             </div>
+            <p>{project.description}</p>
+            <a href={project.github}>Github</a>
         </div>
     )
 }
