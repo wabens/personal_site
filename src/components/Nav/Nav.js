@@ -11,6 +11,7 @@ class Nav extends Component {
 
 
     render(){
+        let offset = 10;
         return (
             <section className = "nav">
                 <div className = "button-box">
@@ -19,40 +20,40 @@ class Nav extends Component {
                     activeClass = "active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={offset}
                     duration= {500} 
                 >
-                    <Button>About</Button>
+                    <Button size='large'>About</Button>
                 </Link>
                 <Link
                     to = 'portfolio-section'
                     activeClass = "active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={offset}
                     duration= {500}  
                 >
-                    <Button>Projects</Button>
+                    <Button size='large'>Projects</Button>
                 </Link>
                 <Link
                     to = 'resume-section'
                     activeClass = "active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={offset}
                     duration= {500}  
                 >
-                    <Button>Resume</Button>
+                    <Button size='large'>Resume</Button>
                 </Link>
                 <Link
                     to = 'contact-section'
                     activeClass = "active"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={offset}
                     duration= {500}
                 >
-                    <Button>Contact</Button>
+                    <Button size='large'>Contact</Button>
                 </Link>
                 </div>
             </section>

@@ -1,18 +1,55 @@
 .App{
   display: flex;
   flex-direction: column;
-
+  color: white
 }
-
+.landing-page{
+  height: 80vh;
+  width: 100%;
+  background-color: #4a8587;
+  display: flex;
+  justify-content: center
+}
 .content-box{
   height: auto;
   width: 100%;
-  margin: 30px, 0px, 30px, 0px;
+  padding: 10vw;
+  box-sizing: border-box;
+
+}
+#about-section{
+  background-color: #DFBE7A;
+  color: black
+}
+
+#portfolio-section{
+  background-color: #DFA97A;
+  color: black;
+}
+
+#resume-section{
+  background-color: #596A96
+}
+
+h2{
+  background-color: inherit;
 }
 
 a {
+  color: inherit;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  align-content: center
+
 }
 
+.landing-info{
+  width: 50%
+}
+.avatar-box{
+  margin: 5%
+}
+.avatar{
+  height: 30vw !important;
+  width:  30vw!important;
+  
+}

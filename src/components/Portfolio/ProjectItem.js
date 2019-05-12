@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '@material-ui/icons/Link'
 import './portfolio.css';
 function ProjectItem (props) {
     let project = props.project;
@@ -15,7 +16,7 @@ function ProjectItem (props) {
                 )}
             </div>
             <p>{project.description}</p>
-            <a href={project.github}>Github</a>
+            <a href={project.github}><Link/>Github</a>
         </div>
     )
 }
