@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Nav.css';
 
-import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -11,7 +10,7 @@ class Nav extends Component {
 
 
     render(){
-        let offset = 10;
+        let offset = -70;
         return (
             <section className = "nav">
                 <div className = "button-box">
@@ -45,7 +44,7 @@ class Nav extends Component {
                 >
                     <Button size='large'><h3>Resume</h3></Button>
                 </Link>
-                <Link
+                {/* <Link
                     to = 'contact-section'
                     activeClass = "active"
                     spy={true}
@@ -54,7 +53,7 @@ class Nav extends Component {
                     duration= {500}
                 >
                     <Button size='large'><h3>Contact</h3></Button>
-                </Link>
+                </Link> */}
                 </div>
             </section>
         )
