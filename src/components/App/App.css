@@ -5,8 +5,9 @@
 }
 
 .content-box{
-  height: 700px;
-  margin: 30px;
+  height: auto;
+  width: 100%;
+  margin: 30px, 0px, 30px, 0px;
 }
 
 a {
