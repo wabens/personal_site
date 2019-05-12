@@ -23,7 +23,7 @@ class Nav extends Component {
                     offset={offset}
                     duration= {500} 
                 >
-                    <Button size='large'>About</Button>
+                    <Button size='large'><h3>About</h3></Button>
                 </Link>
                 <Link
                     to = 'portfolio-section'
@@ -33,7 +33,7 @@ class Nav extends Component {
                     offset={offset}
                     duration= {500}  
                 >
-                    <Button size='large'>Projects</Button>
+                    <Button size='large'><h3>Projects</h3></Button>
                 </Link>
                 <Link
                     to = 'resume-section'
@@ -43,7 +43,7 @@ class Nav extends Component {
                     offset={offset}
                     duration= {500}  
                 >
-                    <Button size='large'>Resume</Button>
+                    <Button size='large'><h3>Resume</h3></Button>
                 </Link>
                 <Link
                     to = 'contact-section'
@@ -53,7 +53,7 @@ class Nav extends Component {
                     offset={offset}
                     duration= {500}
                 >
-                    <Button size='large'>Contact</Button>
+                    <Button size='large'><h3>Contact</h3></Button>
                 </Link>
                 </div>
             </section>

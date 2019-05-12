@@ -1,14 +1,15 @@
 .App{
   display: flex;
   flex-direction: column;
-  color: white
+  color: white;
+  font-size: 2vw
 }
 .landing-page{
-  height: 80vh;
+  height: 75vh;
   width: 100%;
   background-color: #4a8587;
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 .content-box{
   height: auto;
@@ -31,8 +32,17 @@
   background-color: #596A96
 }
 
+#contact-section{
+  background-color: #1A2D5B
+}
+h1{
+  font-size: 2em;
+
+}
+
 h2{
   background-color: inherit;
+  font-size: 1.5em;
 }
 
 a {
@@ -43,7 +53,9 @@ a {
 }
 
 .landing-info{
-  width: 50%
+  width: 50%;
+  margin: 5%
+
 }
 .avatar-box{
   margin: 5%
@@ -51,5 +63,6 @@ a {
 .avatar{
   height: 30vw !important;
   width:  30vw!important;
-  
+  min-width: 200px;
+  min-height: 200px;
 }

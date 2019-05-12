@@ -12,6 +12,7 @@ class Header extends Component {
                 </div>
                 <div className='landing-info'>
                     <h1>Walter Benson</h1>
+                    <p>Web Developer building applications in React and Node</p>
                 </div>
             </section>
         )

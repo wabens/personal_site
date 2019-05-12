@@ -11,7 +11,7 @@ function ProjectItem (props) {
             <div className = {'project-images'}>
                 {project.images.map( (src, i) =>
                     <div className={'img-div'}>
-                        <img key={i} src={src} alt={project.name+' screenshot'} height={'100%'} width={'auto'} />
+                        <img key={i} src={src} alt={project.name+' screenshot'} height={'auto%'} width={'100%'} />
                     </div>
                 )}
             </div>
