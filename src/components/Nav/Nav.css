@@ -20,6 +20,9 @@
     align-content: center;
 }
 
+h3{
+    color: inherit
+}
 
 #root{
     display: flex;

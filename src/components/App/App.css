@@ -49,7 +49,7 @@ h2{
 }
 
 a {
-  color: inherit;
+  color: white;
   display: flex;
   align-content: center
 
@@ -102,4 +102,8 @@ a {
 
 p{
   padding-left: 8px
+}
+
+.jss1{
+  color: white
 }
