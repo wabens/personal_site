@@ -15,14 +15,14 @@ class About extends Component {
                     responsibilities but ultimately wanted to focus on software bringing me to Prime Digital Academy.
                 </p>
                 <p>
-                    I’ m a transplant from Amherst, MA and have lived happily in the Twin Cities
-                    for seven years.I enjoy exploring the parks, breweries, and farmer’ s markets of the cities with my girlfriend and my dog.
-                    I’ ve been enjoying diversifying my skill set and outlook on tech by attending meetups and conferences such as React Minneapolis, 
+                    I’m a transplant from Amherst, MA and have lived happily in the Twin Cities
+                    for seven years.I enjoy exploring the parks, breweries, and farmer’s markets of the cities with my girlfriend and my dog.
+                    I’ve been enjoying diversifying my skill set and outlook on tech by attending meetups and conferences such as React Minneapolis, 
                     Minnebar and Hackers and Founders.
                 </p>
                 <p>
-                    I’ m currently searchingfor a job in web development, my main areas of experience are in React and node but I’ m looking 
-                    forward to expanding my skill set with python and IOT devices in the near future.
+                    I’m currently searching for a job in web development, my main areas of experience are in React and node but I’m looking 
+                    forward to expanding my skill set with Python and additional back end technologies in the near future.
                 </p>
             </section>
         )

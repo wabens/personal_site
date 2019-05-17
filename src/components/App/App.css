@@ -33,7 +33,10 @@
 }
 
 #contact-section{
-  background-color: #1A2D5B
+  background-color: #1A2D5B;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
 }
 h1{
   font-size: 2em;
@@ -76,18 +79,25 @@ a {
   font-size: .7em;
   display: flex;
   align-content: center;
-  padding-left: 8px
+  padding: 8px;
+  margin: 0
 }
 
 .footer-line{
   display: flex;
-  align-content: center
+  flex-direction: column;
+  align-content: center;
+  height: 8%;
+  padding: 8px;
+
 
 }
 
 .header-line{
   display: flex;
-  align-content: center
+  align-content: center;
+  height: 10%;
+  padding: 8px
 }
 
 p{
